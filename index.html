@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Epilogue">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="./images/logo.svg" class="logo" alt="Logo">
+  <nav>
+    <ul class="navigation">
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Features</a>
+        <div class="dropdown-content">
+          <a href="#"><img src="./images/icon-todo.svg"> Todo List</a>
+          <a href="#"><img src="./images/icon-calendar.svg"> Calender</a>
+          <a href="#"><img src="./images/icon-reminders.svg"> Reminders</a>
+          <a href="#"><img src="./images/icon-planning.svg"> Planning</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Company</a>
+        <div class="dropdown-content">
+          <a href="#">History</a>
+          <a href="#">Our Team</a>
+          <a href="#">Blog</a>
+        </div>
+      </li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <div class="nav-right">
+      <ul class="navigation">
+      <li><a href="#">Login</a></li>
+      <li><a href="#"><button type="button">Register</button></a></li>
+      </ul>
+   </div>
+   <div id="menu-icon">&#9776;</div>
+   <div id="close-icon">&#10006;</div>
+  </nav>
+ <!-- <img src="./images/icon-menu.svg" class="menu" onclick="togglemenu()"> -->
+  </div>
+  </div>
+
+  <!--Hero Section-->
+  <div class="row">
+    <div class="col-1">
+        <h2>Make<br> Remote Work</h2> 
+        <p>Get your team in sync, no matter your location.<br>
+          Streamline processes, create team rituals and <br>
+          watch productivity soar.
+        </p>
+        <button type="button" class="button1">Learn More</button>
+    </div>
+    <div class="col-2">
+     <img src="./images/image-hero-desktop.png">
+    </div>
+    </div>
+    <div class="sponsor">
+      <a><img src="./images/client-databiz.svg"></a>
+     <a><img src="./images/client-audiophile.svg"></a>
+     <a><img src="./images/client-meet.svg"></a>
+     <a><img src="./images/client-maker.svg"></a>
+    </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" class="my-name">Nwafor Richard.M</a>
+  </div> 
+  <script src="index.js"></script>
+</body>
+</html>
