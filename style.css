@@ -9,6 +9,8 @@
   max-width: 1440px;
   max-height: auto;
 }
+
+/* HEADER */
 .logo{
   margin-left: 20px;
 }
@@ -178,7 +180,7 @@ button:hover{
 */
 @media screen and (max-width: 480px) {
 /* Removes the extra spacing mobile device*/ 
-html, body{
+ html, body{
   width: 100%;
   height: auto;
   margin: 0;
